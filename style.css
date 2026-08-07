@@ -30,7 +30,6 @@ body {
     position: relative;
 }
 
-/* Custom Cursor default for desktop */
 @media (min-width: 1024px) {
     body, a, button {
         cursor: none;
@@ -155,7 +154,6 @@ body {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Mobile Menu Overlay */
 .mobile-menu {
     position: fixed;
     top: 0;
@@ -975,4 +973,9 @@ section {
     .story-grid, .suits-container { grid-template-columns: 1fr; gap: 40px; }
     .image-reveal-wrapper, .suit-image-wrapper { height: 420px; }
     
-    /* Transform Villains Grid into a stacked view for 
+    .villains-slider { 
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+ 
